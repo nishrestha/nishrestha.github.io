@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Futura, Helvetica, sans-serif;
+}
+@font-face { font-family: Futura; src: url('/Public/fonts/Futura/Futura-Std-Light_19054.ttf'); } 
+ @font-face { font-family: Futura; font-weight: bold; src: url('/Public/fonts/Futura/a_FuturaOrto-Bold_2258.ttf');}
+
+#nav-custom a{
+}
+
+.navbar-nav{
+	padding: 12px;	
+}
+
+.navbar-header{
+	margin-right: 70px;
+	margin-left: 105px;
+}
+
+#my-slider{
+	text-align: center;
+	background: #eee;
+	margin: auto;
+}
+
+#nav-custom{
+	margin: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	background: white;
+}
+
+#main_body{
+}
+
+#my-slider{
+}
+
+
+
+/* 				      <div class="ism-caption ism-caption-0">SUSHI<br>WOK, CURRY &amp; GRILL</div>
+				      <div class="ism-caption ism-caption-1" data-delay='200'>BEKIJK ONS ASSORTIMENT</div>
+				      */
