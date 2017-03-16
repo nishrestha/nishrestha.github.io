@@ -5,7 +5,7 @@
 	<title>Aki Sushi</title>
 	<meta name="author" content="Nishchal Shrestha">
 	<link rel="stylesheet" href="Public/css/main.css" />
-	<link rel="icon" type="image/png" href="Public/photos/smalllogo.jpg" />
+	<link rel="icon" type="image/png" href="Public/photos/smalllogo.png" />
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -13,11 +13,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     
     <link rel="stylesheet" href="ism/css/my-slider.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="ism/js/ism-2.2.min.js"></script>
 </head>
 <body>
 
-	<div class="container">
+	<div class="container-fluid" id="custom-container">
 		<nav class="navbar navbar-default" id="nav-custom">
 			<div>
 				<!-- Logo -->
@@ -27,8 +28,8 @@
 				
 				<!-- Menu item -->
 				<div>
-					<ul class="nav navbar-nav">
-						<li><a href="#">HOME</a></li>
+					<ul class="nav nav-pills">
+						<li class="active"><a href="#">HOME</a></li>
 						<li><a href="#">MENU</a></li>
 						<li><a href="#">BESTELLEN</a></li>
 						<li><a href="#">RESERVEREN</a></li>
@@ -40,21 +41,113 @@
 			</div>
 		</nav>
 		<div id="main_body">
-			<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="10000" data-buttons="false" id="my-slider">
-			  <ol>
-			    <li>
-			      <img src="ism/image/slides/_u/1489521641862_604063.jpg">
-			    </li>
-			    <li>
-			      <img src="ism/image/slides/_u/1489521642485_36873.jpg">
-			    </li>
-			    <li>
-			      <img src="ism/image/slides/_u/1489521610159_304101.png">
-			    </li>
-			  </ol>
+			<div id="slider">
+				<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="10000" data-buttons="false" id="my-slider">
+				  <ol>
+				    <li>
+				      <img src="ism/image/slides/_u/1489521641862_604063.jpg">
+							<div class="ism-caption ism-caption-0">SUSHI<br>WOK, CURRY &amp; GRILL</div>
+					      <div class="ism-caption ism-caption-1"><button id="btn">BEKIJK ONS ASSORTIMENT</button></div>
+					</li>
+				    <li>
+				      <img src="ism/image/slides/_u/1489521642485_36873.jpg">
+				    </li>
+				    <li>
+				      <img src="ism/image/slides/_u/1489521610159_304101.png">
+				    </li>
+				  </ol>
+				</div>			
+			</div>
+			
+			<div class="services" >
+				<div class="sqboxes" style="padding:0px;"><img src="Public/photos/DSC_0052.JPG" width="100%" height="100%"></div>
+				<div class="sqboxes">BESTEL ONLINE</div>
+				<div class="sqboxes" style="padding:0px;"><img src="Public/photos/akimap.png" width="100%" height="100%"></div>
+				<div class="sqboxes">GRATIS LEVERING AAN HUIS</div>
+			</div>
+			
+			<div class="services">
+				<div id="main_text">
+					<h1>HET CONCEPT</h1>
+					<br>
+					<p>
+					De oorsprong van sushi ligt in de conservering van vis door het te laten fermenteren in
+					vaten met rijst. Deze vaten werden onder druk gezet en zodoende kon de vis lang (zeker een jaar) bewaard worden.
+					Deze methode begon in Zuidoost-Azië en verspreidde zich over rest van Azië.
+					</p>
+					<p>
+					Bij ons kunt u genieten van verschillende soorten sushi. U kunt à la carte kiezen of
+					voor onze combo's die verschillende combinaties aanbieden gaan. Wij bieden ook boot menu's
+					aan, rijk met verschillende soorten sushi voor 2, 3 of 4 personen.  
+					</p>
+					<p>
+					Voor de liefhebbers van de warme gerechten bieden we wok-gerechten, curry's en
+					gegrilde gerechten aan.
+					</p>
+					<br>
+				</div>
+				<div id="description">
+						<h1>TERMINOLOGIE</h1><br>
+						<div class="sq-row">
+							<div class="smallboxes"><img src="Public/photos/nigiri.png" width="80%" height="80%"><br>Nigiri</div>
+							<div class="smallboxes"><img src="Public/photos/futo.png" width="90%" height="70%"><br>Futomaki</div>
+							<div class="smallboxes"><img src="Public/photos/maki.png" width="80%" height="80%"><br>Hosomaki</div>
+						</div>
+						<div class="sq-row">
+							<div class="smallboxes"><img src="Public/photos/inout.png" width="80%" height="80%"><br>In/out</div>
+							<div class="smallboxes"><img src="Public/photos/sashimi.png" width="80%" height="80%"><br>Sashimi</div>
+							<div class="smallboxes" id="textsmallboxes">Welke is je favoriete sushi?</div>
+						</div>					
+				</div>
 			</div>
 		</div>
+		<footer id="the_footer">
+			<div id="footer_contents" class="services">
+				<div id="address" class="footerbox">
+					<h3><span style="margin-left:5px;"></span>Aki Sushi</h3>
+					<p> <span class="glyphicon glyphicon-map-marker"></span>Botermarkt 17	<br>
+					<span style="margin-right:24px"></span>3500 Hasselt</p>
+					<p><span class="glyphicon glyphicon-earphone"></span> 01 191 55 71 <br>
+						<span class="glyphicon glyphicon-phone"></span> 0484 91 60 84 <br>
+					</p>
+					<p> <span class="glyphicon glyphicon-envelope" style="margin-top:40px; margin-left:45px;"></span>
+					<br><a href="#">hasselt@akisushi.be</a>  </p>				
+				</div>
 			
+				<div id="social" class="footerbox">
+					<div>
+						<h3>Social Media</h3>
+						<a href="https://www.facebook.com/akihasselt/"><i class="fa fa-facebook-square" style="font-size:38px; color:white"></i></a>
+						<a href="https://www.facebook.com/akihasselt/"><i class="fa fa-instagram" style="font-size:38px; color:white"></i></a>
+						<a href="https://www.facebook.com/akihasselt/"><i class="fa fa-twitter" style="font-size:38px; color:white"></i></a>
+					</div>
+					<div id="zuster">
+						<a href="http://moshisushi.be"><img src="Public/photos/moshi.png" height="100px" width="100px" alt="Moshi Sushi" class="img-circle"></a>
+						<h4>Ons zusterbedrijf</h4>
+					</div>
+				</div>
+				
+				<div id="openings_hour" class="footerbox">
+					<h3>Openingsuren</h3>
+					<table>
+						<tr><td>Maandag:</td> 	<td>17:00 - 22:00</td> </tr>
+						<tr><td>Dinsdag:</td> 	<td>Gesloten</td> </tr>
+						<tr><td>Woensdag:</td> 	<td>17:00 - 22:00</td></tr>
+						<tr><td>Donderdag:</td>	<td>17:00 - 22:00</td></tr>
+						<tr><td>Vrijdag:</td>	<td>17:00 - 22:00</td></tr>
+						<tr><td>Zaterdag:</td>	<td>17:00 - 22:00</td></tr>
+						<tr><td>Zondag:</td>	<td>17:00 - 22:00</td></tr>
+					</table>
+					<div id="design_by">
+						<a href="https://www.facebook.com/faaarts/"><img src="Public/photos/faarts.jpg" height="60px" width="60px" id="faarts" class="img-circle"></a>
+						<br> <h4 style="margin-left:10px;">Design</h4>
+					</div>
+				</div>
+			
+				
+			</div>
+			<p style="text-align:center; font-size:16px; padding: 30px;">© Aki Sushi, 2017.</p>
+		</footer>
 	</div>
 
 </body>
