@@ -48,6 +48,9 @@
 	display:-webkit-box;
 	display:-moz-box;
 	display: -ms-box;
+	-ms-box-orient:vertical;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
 	-moz-box-flex: 1;
 	-webkit-box-flex: 1;
 	-ms-box-flex: 1;
