@@ -80,10 +80,11 @@
     text-decoration: blink;
     display: inline-block;
     margin: 4px 2px;
+    margin-top: 1vh;
     cursor: pointer;
     border-radius: 1px;
-    font-size: 16px;
-    border: none;
+	font-size: 1.2vw;
+	border: none;
 }
 
 #main_body{
