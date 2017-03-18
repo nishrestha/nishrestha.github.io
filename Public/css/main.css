@@ -94,6 +94,9 @@
 	-moz-box-orient: vertical;	
 	-ms-box-orient: vertical;
 	margin: auto;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	-ms-box-flex: 1;
 
 }
 
@@ -106,8 +109,11 @@
 	-ms-box-orient: horizontal;
 	text-align: center;
 	margin: 0 auto;
-	width: 900px;
+	max-width: 900px;
 	border-bottom: 1px solid #eee;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	-ms-box-flex: 1;
 }
 .sqboxes{
 	width: 16vw;
@@ -177,6 +183,14 @@
    	margin-top: 0px;
    	text-align: center;
    	padding: 5px;
+	font-size-adjust: 0.58;
+	
+	display:-moz-box;
+	display:-webkit-box;
+	display: -ms-box;
+	-webkit-box-flex:1;
+	-ms-box-flex:1;
+	-moz-box-flex:1;
 }
 
 #textsmallboxes{
@@ -253,4 +267,8 @@
     -ms-transform:scale(1.15); /* IE 9 */
     -o-transform:scale(1.15); /* Opera */
      transform:scale(1.15);
+}
+
+#concept{
+	padding-bottom: 50px;
 }
