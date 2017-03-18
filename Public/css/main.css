@@ -45,6 +45,12 @@
 #custom-container{
 	margin: 0px;
 	padding: 0px;
+	display:-webkit-box;
+	display:-moz-box;
+	display: -ms-box;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	-ms-box-flex: 1;
 }
 
 #my-slider{
@@ -245,7 +251,3 @@
     -o-transform:scale(1.15); /* Opera */
      transform:scale(1.15);
 }
-
-/* 				      <div class="ism-caption ism-caption-0">SUSHI<br>WOK, CURRY &amp; GRILL</div>
-				      <div class="ism-caption ism-caption-1" data-delay='200'>BEKIJK ONS ASSORTIMENT</div>
-				      */
