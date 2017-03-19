@@ -20,12 +20,19 @@
 	margin-bottom: 0px;
 	background: white;*/
 	background-color: white;
+	display:-webkit-box;
+	display:-moz-box;
+	display: -ms-box;
+	-ms-box-orient:vertical;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
 	
 }
 
 #mainNavBar{
 	padding: 15px;	
 	border-bottom: 0px;
+	
 }
 
 .navbar-header{
@@ -33,16 +40,6 @@
 	margin-left: 160px;
 	
 }
-
-    .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
-        color: black;
-        background-color: #fcd900;
-    }
-
-        .nav-pills > li.active > a:hover {
-            background-color: #efcb00;
-            color:black;
-        }
 #custom-container{
 	margin: 0px;
 	padding: 0px;
@@ -275,4 +272,10 @@
 
 #concept{
 	padding-bottom: 50px;
+}
+
+#mobNav{
+	margin:5px; 
+	float:left !important;
+	padding: 8px;
 }
