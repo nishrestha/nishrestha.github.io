@@ -23,14 +23,15 @@
 	
 }
 
-.nav-pills{
-	padding: 19px;	
+#mainNavBar{
+	padding: 15px;	
 	border-bottom: 0px;
 }
 
 .navbar-header{
 	margin-right: 80px;
-	margin-left: 140px;
+	margin-left: 160px;
+	
 }
 
     .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
@@ -75,12 +76,12 @@
 #btn{
 	background-color: #C40011;
 	color: white;
-	padding: 1.5vw 2.5vw;
+	padding: 2vw;
     text-align: center;
     text-decoration: blink;
     display: inline-block;
     margin: 4px 2px;
-    margin-top: 4vh;
+    margin-top: 2.5vh;
     cursor: pointer;
     border-radius: 1px;
 	font-size: 1.2vw;
@@ -142,8 +143,9 @@
 
 #description{
 	width: 50%;
-	padding: 40px;
+	padding: 30px;
 	padding-top: 10px;
+	padding-right: 0px;
 	text-align: left;
 	
 }
@@ -176,11 +178,11 @@
 }
 
 .smallboxes{
-	width: 10vw;
-    height: 10vw;
+	width: 120px;
+    height: 120px;
 	background-image: url('wood.jpg');
     color: white;
-   	margin: 5px;
+   	margin: 3px;
    	margin-top: 0px;
    	text-align: center;
    	padding: 5px;
@@ -193,6 +195,7 @@
 	-ms-box-flex:1;
 	-moz-box-flex:1;
 }
+
 
 #textsmallboxes{
 	background-image: none;
