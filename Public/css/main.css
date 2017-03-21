@@ -8,6 +8,12 @@
 @font-face { font-family: Futura; src: url('Futura-Std-Light_19054.ttf'); } 
  @font-face { font-family: Futura; font-weight: bold; src: url('a_FuturaOrto-Bold_2258.ttf');}
 
+body{
+		-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-box-pack: center;
+
+}
 #nav-custom a{
 	/*color: #560000;*/
 }
@@ -52,6 +58,7 @@
 	-moz-box-flex: 1;
 	-webkit-box-flex: 1;
 	-ms-box-flex: 1;
+	max-width: 2000px;
 	
 }
 
