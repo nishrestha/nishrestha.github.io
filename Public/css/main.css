@@ -3,6 +3,9 @@
 	margin:0px;
 	padding:0px;
 	font-family: Futura, Helvetica, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 
 }
 @font-face { font-family: Futura; src: url('Futura-Std-Light_19054.ttf'); } 
@@ -204,8 +207,8 @@ body{
 }
 
 .smallboxes{
-	width: 120px;
-    height: 120px;
+	width: 13%;
+    padding-top: 13%;
 	background-image: url('wood.jpg');
     color: white;
    	margin: 3px;
@@ -235,7 +238,6 @@ body{
 #the_footer{
 	background-color: #333333;
 	color: white;
-	
 }
 
 #footer_contents{
@@ -271,6 +273,7 @@ body{
 
 .footerbox{
 	width: 25vw;
+	font-size-adjust: 
 }
 
 #openings_hour{
