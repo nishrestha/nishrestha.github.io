@@ -18,7 +18,8 @@ body{
 
 }
 #nav-custom a{
-	/*color: #560000;*/
+	color: #C40011;
+	font-weight: bold;
 }
 
 #nav-custom{
@@ -42,19 +43,20 @@ body{
 #logoNlink{
 	text-align: center;
 	margin: 0 auto;
-	max-width: 980px;
+	max-width: 900px;
  	
 }
 
 #mainNavBar{
 	padding: 10px;	
 	border-bottom: 0px;
+	margin-top: 5px;
 	
 }
 
 .navbar-header{
-	margin-right: 100px;
-	margin-bottom: 20px;
+	margin-right: 25px;
+	margin-bottom: 10px;
 }
 
 
