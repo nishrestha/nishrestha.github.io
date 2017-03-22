@@ -96,7 +96,7 @@ body{
 #btn{
 	background-color: #C40011;
 	color: white;
-	padding: 0.5vw;
+	padding: 5px;
     text-align: center;
     text-decoration: blink;
     display: inline-block;
@@ -331,6 +331,11 @@ body{
 	padding: 8px;
 }
 
+#zuster img{
+	display: block;
+	margin: auto;
+}
+
 
 @media screen and (max-width: 900px)
 {
@@ -349,8 +354,8 @@ body{
 	}
 	
 	.sqboxes{
-		width: 20vw;
-    	height: 20vw;
+		width: 15vw;
+    	height: 18vw;
     	font-size: xx-small;
     	margin: 1%;
     }
@@ -371,6 +376,12 @@ body{
     
     table{
     	margin: 0 auto;
+    }
+    .services{
+    	padding: 1%;
+    }
+    #nav-custom{
+    	background-color: #eee;
     }
     
     
