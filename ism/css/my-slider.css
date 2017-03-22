@@ -666,7 +666,7 @@ a.ism-caption:hover {
 }
 
 #my-slider .ism-slide-0 .ism-caption-0 {
-    font-size: xxx-large;
+    font-size: 300%;
     position: absolute; top: 20%;
     left: 5%;
     border-radius: 4px;
