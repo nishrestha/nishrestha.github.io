@@ -42,18 +42,19 @@ body{
 #logoNlink{
 	text-align: center;
 	margin: 0 auto;
-	max-width: 1000px;
+	max-width: 980px;
  	
 }
 
 #mainNavBar{
-	padding: 15px;	
+	padding: 10px;	
 	border-bottom: 0px;
 	
 }
 
 .navbar-header{
 	margin-right: 100px;
+	margin-bottom: 20px;
 }
 
 
