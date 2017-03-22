@@ -330,3 +330,51 @@ body{
 	float:left !important;
 	padding: 8px;
 }
+
+
+@media screen and (max-width: 900px)
+{
+	.navbar-header{
+		text-align: center;
+	}
+	
+	#logo{
+		display: block;
+		margin: auto;
+		width: 60%;
+	}
+	
+	#logoNlink{
+		margin-bottom: 5%;
+	}
+	
+	.sqboxes{
+		width: 20vw;
+    	height: 20vw;
+    	font-size: xx-small;
+    	margin: 1%;
+    }
+    
+    #concept, #footer_contents{
+		-webkit-box-orient: vertical;
+    }
+    
+    #description, #main_text{
+    	width: 100%;
+    	padding: 2%;
+    }
+    
+    .footerbox, #openings_hour{
+    	width: 100%;
+    	text-align:center;
+    }
+    
+    table{
+    	margin: 0 auto;
+    }
+    
+    
+}
+
+
+

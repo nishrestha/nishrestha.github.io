@@ -665,21 +665,6 @@ a.ism-caption:hover {
     
 }
 
-@media only screen and (max-width: 320px) {
-
-   #my-slider .ism-slide-0 .ism-caption-0 {
-    font-size: 100%;
-    position: absolute; top: 20%;
-    left: 5%;
-    border-radius: 4px;
-    border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.40);
-    background: transparent;
-    text-shadow: 1px 1px gray;
-   }
-
-}
-
 #my-slider .ism-slide-0 .ism-caption-0 {
     font-size: 300%;
     position: absolute; top: 20%;
@@ -690,6 +675,13 @@ a.ism-caption:hover {
     background: transparent;
     text-shadow: 1px 1px gray;
     
+}
+
+@media screen and (max-width: 900px)
+{
+	#my-slider .ism-slide-0 .ism-caption-0 {
+		font-size: small;
+	}
 }
 
 #my-slider .ism-slide-0 .ism-caption-1 {
