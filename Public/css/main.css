@@ -12,7 +12,7 @@
  @font-face { font-family: Futura; font-weight: bold; src: url('a_FuturaOrto-Bold_2258.ttf');}
 
 body{
-		-webkit-box-pack: center;
+	-webkit-box-pack: center;
 	-moz-box-pack: center;
 	-ms-box-pack: center;
 
@@ -35,7 +35,15 @@ body{
 	-ms-box-orient:vertical;
 	-moz-box-orient: vertical;
 	-webkit-box-orient: vertical;
+	text-align: center;
 	
+}
+
+#logoNlink{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1000px;
+ 	
 }
 
 #mainNavBar{
@@ -45,10 +53,10 @@ body{
 }
 
 .navbar-header{
-	margin-right: 80px;
-	margin-left: 160px;
-	
+	margin-right: 100px;
 }
+
+
 #custom-container{
 	margin: 0px;
 	padding: 0px;
@@ -236,8 +244,18 @@ body{
 }
 
 #the_footer{
+	display:-moz-box;
+	display:-webkit-box;
+	display: -ms-box;
+	
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	-ms-box-flex: 1;
 	background-color: #333333;
 	color: white;
+	-webkit-box-orient: vertical;	
+	-moz-box-orient: vertical;	
+	-ms-box-orient: vertical;
 }
 
 #footer_contents{
@@ -272,8 +290,7 @@ body{
 }
 
 .footerbox{
-	width: 25vw;
-	font-size-adjust: 
+	margin-right: 180px;
 }
 
 #openings_hour{
