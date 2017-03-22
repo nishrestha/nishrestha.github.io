@@ -3,6 +3,10 @@
 	margin:0px;
 	padding:0px;
 	font-family: Futura, Helvetica, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+    -text-size-adjust: 100%;
 
 }
 @font-face { font-family: Futura; src: url('Futura-Std-Light_19054.ttf'); } 
@@ -37,11 +41,11 @@
 	-ms-box-flex: 1;
 	background: white;
  
- 	max-width: 900px;
+ 	max-width: 1000px;
  	text-align: center;
  	margin: 0 auto;
+ 	padding: 5px;
  	border: none;
- 	padding: 8px;
  	
  }
  
@@ -49,14 +53,27 @@
   	display:-webkit-box;
 	display:-moz-box;
 	display: -ms-box;
-	margin-right: 100px;
+	-moz-box-flex: 0;
+	-webkit-box-flex: 0;
+	-ms-box-flex: 0;
+	width: 22%;
+	margin-right: 8%;
+	margin-left: 3%;
  }
  
  #menu_item{
   	display:-webkit-box;
 	display:-moz-box;
 	display: -ms-box;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	-ms-box-flex: 1;
 
+ }
+ 
+ #menu_item li{
+ 	display:inline-block;
+	list-style:none;
  }
  
  /* ----------------------------- */
