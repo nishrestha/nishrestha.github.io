@@ -17,7 +17,22 @@ body{
 	-ms-box-pack: center;
 
 }
+
 #nav-custom a{
+}
+
+#nav-custom a:hover{
+	text-decoration: underline;
+	font-size: larger;
+}
+
+#actief{
+	background:url('Semitransparent-red-background-80-percent-opacity.png');
+}
+
+#actief a{
+	color: #eee;
+	text-weight: bold;
 }
 
 #nav-custom{
