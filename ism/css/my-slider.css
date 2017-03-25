@@ -682,6 +682,9 @@ a.ism-caption:hover {
 	#my-slider .ism-slide-0 .ism-caption-0 {
 		font-size: medium;
 	}
+	#my-slider .ism-slide-0 .ism-caption-2 {
+		font-size: large;
+	}
 }
 
 #my-slider .ism-slide-0 .ism-caption-1 {
