@@ -96,7 +96,7 @@ body{
 #btn{
 	background-color: #C40011;
 	color: white;
-	padding: 5px;
+	padding: 10px;
     text-align: center;
     text-decoration: blink;
     display: inline-block;
@@ -109,6 +109,7 @@ body{
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	border: none;
+	color: #eee;
 }
 
 #main_body{
@@ -166,6 +167,9 @@ body{
    	display: flex;
     align-items: center;
     justify-content: center;
+    
+   	background-image: url('redBackground.jpg');
+    
 }
 
 #main_text{
@@ -237,8 +241,7 @@ body{
 
 #textsmallboxes{
 	background-image: none;
-	/*background-color:#C21D2D;*/
-	background-color: #C40011;
+   	background-image: url('redBackground.jpg');
 	color: white; 
 	padding: 20px;
 	padding-top: 40px;
@@ -303,9 +306,11 @@ body{
 }
 
 #zuster{
-	margin-top: 30px;
-	margin-left:15px;
+	margin-top: 10px;
+	margin-left:0px;
+	text-align: center;
 }
+
 
 #design_by{
 	margin-left: 20px;
@@ -336,6 +341,9 @@ body{
 	margin: auto;
 }
 
+#social{
+	font-size: 38px;
+}
 
 @media screen and (max-width: 900px)
 {
@@ -355,9 +363,14 @@ body{
 	
 	.sqboxes{
 		width: 15vw;
-    	height: 20vw;
+    	height: 22vw;
     	font-size: xx-small;
     	margin: 1%;
+    	padding: 2%;
+    	margin-top: 5%;
+    	margin-bottom: 5%;
+    	font-weight: 500;
+    	color: #eee;
     	
     }
     
@@ -392,6 +405,7 @@ body{
     }
     #main_text, #description{
     	font-size: x-small;
+    	
     }
 
 	#main_text h1, #description h1{
@@ -408,6 +422,7 @@ body{
 	#social{
 		font-size: x-large;
 	}
+	
 }
 
 
