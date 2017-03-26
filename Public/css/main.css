@@ -189,7 +189,7 @@ body{
 
 #main_text{
 	text-align: left;
-	width: 50%;
+	width: 34%;
 	padding-top: 10px;
 }
 
@@ -199,12 +199,16 @@ body{
 }
 
 #description{
-	width: 50%;
+	width: 33%;
 	padding: 30px;
 	padding-top: 10px;
 	padding-right: 0px;
 	text-align: left;
 	
+}
+
+#TA_selfserveprop582{
+	width: 33%;
 }
 
 .sushi-left > img{
