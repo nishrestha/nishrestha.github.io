@@ -435,7 +435,7 @@ body{
 		font-size: x-small;
 	}
 	
-	#the_footer h3{
+	#the_footer h3, #the_footer h4{
 		font-size: small;
 	}
 	#social{

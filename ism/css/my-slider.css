@@ -653,19 +653,8 @@ a.ism-caption:hover {
   z-index: 5;
 }
 
-#my-slider .ism-slide-0 .ism-caption-0 {
-    font-size: 3.5em;
-    position: absolute; top: 20%;
-    left: 5%;
-    border-radius: 4px;
-    border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.40);
-    background: transparent;
-    text-shadow: 1px 1px gray;
-    
-}
 
-#my-slider .ism-slide-0 .ism-caption-0 {
+#my-slider .ism-slide-0 .ism-caption-0, #my-slider .ism-slide-1 .ism-caption-0, #my-slider .ism-slide-2 .ism-caption-0 {
     font-size: 300%;
     position: absolute; top: 20%;
     left: 5%;
@@ -679,7 +668,7 @@ a.ism-caption:hover {
 
 @media screen and (max-width: 900px)
 {
-	#my-slider .ism-slide-0 .ism-caption-0 {
+	#my-slider .ism-slide-0 .ism-caption-0, #my-slider .ism-slide-1 .ism-caption-0, #my-slider .ism-slide-2 .ism-caption-0 {
 		font-size: medium;
 	}
 	#my-slider .ism-slide-0 .ism-caption-2 {
@@ -709,15 +698,6 @@ a.ism-caption:hover {
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
 }
 
-#my-slider .ism-slide-1 .ism-caption-0 {
-    font-size: 1.25em;
-    font-family: Futura;
-    position: absolute; top: 10%;
-    left: 5%;
-    border-radius: 4px;
-    border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
-}
 
 #my-slider .ism-slide-1 .ism-caption-1 {
     font-size: 1.25em;
@@ -739,15 +719,6 @@ a.ism-caption:hover {
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
 }
 
-#my-slider .ism-slide-2 .ism-caption-0 {
-    font-size: 1.25em;
-    font-family: Futura;
-    position: absolute; top: 10%;
-    left: 5%;
-    border-radius: 4px;
-    border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
-}
 
 #my-slider .ism-slide-2 .ism-caption-1 {
     font-size: 1.25em;
